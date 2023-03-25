@@ -6,7 +6,5 @@ void main() {
   print(fruits);
   fruits = ['orange', 'pear'];
   print(fruits);
-  fruits = ['cucumber', 'pear'];
-  print(fruits);
 }
 
