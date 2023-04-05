@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2394bd90-0361-4ecb-bf01-b2d47d1eb70f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/-05_Sets/-05.24_Базовые операции со множеством.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-04_Lists/-04.22.01_additionalHomeWork.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/-05.24_Базовые операции со множеством.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/-05_Sets.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +45,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "D:/development/learning/dart/kokorinLessons/-05_Sets",
+    "last_opened_file_path": "D:/development/learning/dart/kokorinLessons",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\development\learning\dart\kokorinLessons\-04_Lists" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,5 +68,9 @@
       <updated>1680115477425</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
