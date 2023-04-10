@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2394bd90-0361-4ecb-bf01-b2d47d1eb70f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/-04_Lists/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/-04_Lists/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-04_Lists/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/-04_Lists/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/-05_Sets/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_Sets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/-05_Sets/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "D:/development/learning/dart/kokorinLessons/-05_Sets",
+    "last_opened_file_path": "E:/dart/learning/kokorinLessons/-04_Lists",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

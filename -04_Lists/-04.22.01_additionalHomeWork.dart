@@ -1,4 +1,4 @@
-void main() {
+//void main() {
   // map: это метод, который позволяет применять функцию к каждому элементу
   // коллекции и создавать новую коллекцию на основе результата.
   // List<int> numbers = [1, 2, 3];
@@ -16,8 +16,8 @@ void main() {
 
   // forEach: это метод, который позволяет выполнить функцию для каждого
   // элемента коллекции. Он не возвращает новую коллекцию.
-  List<String> names = ['Alice', 'Bob', 'Charlie'];
-  names.forEach((name) => print('Hello, $name!'));
+  // List<String> names = ['Alice', 'Bob', 'Charlie'];
+  // names.forEach((name) => print('Hello, $name!'));
 
   //join: это метод, который объединяет элементы коллекции в строку,
   // используя указанный разделитель.
@@ -106,7 +106,7 @@ void main() {
     final genereatedList = List.generate(10, (index) => "User $index");
     print(genereatedList);
   }
-}
+//}
 //После выполнения кода будет выведено:
 //
 // первый и последний элементы списка mapedList

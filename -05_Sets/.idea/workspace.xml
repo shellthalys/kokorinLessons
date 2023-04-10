@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb27918-c466-48d8-a175-7172e6d8d598" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04.24_basicOperationsWithPlurars.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../-04_Lists/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../-04_Lists/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../-04_Lists/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../-04_Lists/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
@@ -36,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "develop",
+    "last_opened_file_path": "E:/dart/learning/kokorinLessons/-05_Sets/04.24_basicOperationsWithPlurars.dart",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
