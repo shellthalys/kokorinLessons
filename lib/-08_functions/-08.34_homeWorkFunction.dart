@@ -1,23 +1,20 @@
 void main() {
-  final String alphabet = 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k'
-    'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z';
+  const String alphabet = 'abcdefghijklmnopqrstuvwxyz';
+
   List<String> inputWords = ['abc', 'abc abc'];
 
-  final List<int> mapedList = inputWords.map((word) {
-    int sum = 0;
-    for(int i = 0; i < word.length; i++) {
-      String wordLetter = word[i];
-      if (alphabet.contains(wordLetter)) {
-        sum += alphabet.indexOf(wordLetter) + 1;
-      }
-    }
-    return sum * (inputWords.indexOf(word) + 1);
+  // List<String> inputWords = ['abc'];
+
+  final List mapedList = inputWords.map((word) {
+      print(word);
+    return word.split('').map((letter) {
+      print(letter);
+      return alphabet.indexOf(letter) + 1;
+    }).toList().fold(0, (prev, cur) => prev + cur);
   }).toList();
-  
+
   print(mapedList);
-
-  }
-
+}
 
 
 
