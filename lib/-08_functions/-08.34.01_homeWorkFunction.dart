@@ -17,7 +17,7 @@ void main() {
   }).values.toList();
 
 
-  //print(mapedList);
+  print(mapedList);
 }
 
 // Сначала определяется константа alphabet - строка, содержащая алфавит в нижнем регистре.
