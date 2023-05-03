@@ -5,8 +5,8 @@
 //   lib.sumPositive();
 //   }
 
-import 'package:kokorin/-09_exceptions/-09.41_customExceptions.dart' as lib;
+import 'package:kokorin/-10_oop1/-10.42.43_class&objectDefinition.dart' as lib;
 
 void main() {
-  lib.factorExcept();
+  lib.carClass();
 }
