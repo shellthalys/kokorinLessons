@@ -5,7 +5,7 @@
 //   lib.sumPositive();
 //   }
 
-import 'package:kokorin/-10_oop1/-10.42.43_class&objectDefinition.dart' as lib;
+import 'package:kokorin/-10_oop1/-10.45_namedConstructorClasses.dart' as lib;
 
 void main() {
   lib.carClass();
