@@ -8,8 +8,8 @@ void carClass() {
 }
 
 class Car {
-  String carName;
-  var color;
+  String? carName;
+  String? color;
 
   Car.named() {
     carName = 'Volvo';
@@ -23,7 +23,7 @@ class Car {
   }
 
   void stop() {
-    print('The $carName has stopped now.');
+    print('The $color $carName has stopped now.');
   }
 
 }
