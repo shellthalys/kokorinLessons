@@ -1,4 +1,4 @@
-void main() {
+void factorExcept() {
   try {
     print(factorial(-5));
   } catch (e) {
