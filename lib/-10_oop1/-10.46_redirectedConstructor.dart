@@ -14,15 +14,9 @@ class Car {
   String? carName;
   String? color;
 
-  Car.named() {
-    carName = 'Volvo';
-    color = 'grey';
-  }
+  Car.named() : this('Ferrari', 'red');
 
-  Car.fromColor(var color) {
-    carName = 'Mercedes';
-    this.color = color;
-  }
+  Car.fromColor(var color): this('Lamborgini', color);
 
   Car(this.carName, this.color);
 
