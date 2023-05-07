@@ -2,8 +2,6 @@ void carClass() {
   Car car = Car('BMW', 27, 4);
   car.move();
   print(car.wheels);
-
-
 }
 
 class Car {
@@ -19,6 +17,4 @@ class Car {
   void move() {
     print('The $carName has started. Percent way: $percentWay');
   }
-
-
 }
