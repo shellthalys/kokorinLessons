@@ -6,12 +6,12 @@ void carClass() {
   myCar.open();
   myCar.start();
 
-var myMoto = Moto();
-myMoto.type = 'Sportbike';
-myMoto.color = 'grey';
-myMoto.roll();
-myMoto.start();
-}
+  var myMoto = Moto();
+  myMoto.type = 'Sportbike';
+  myMoto.color = 'grey';
+  myMoto.roll();
+  myMoto.start();
+  }
 
 class Vechicle {
   late String color;
