@@ -1,5 +1,5 @@
 // TODO Implement this library.
-import 'package:kokorin/-11_oop2/-11.52_inheritanceConstructors.dart' as lib;
+import 'package:kokorin/-11_oop2/-11.53_overridingMethodsAndProperties.dart' as lib;
 
 void main() {
   lib.carClass();

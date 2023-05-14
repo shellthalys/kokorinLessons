@@ -6,8 +6,7 @@ void carClass() {
 class Vehicle {
   String color;
 
-  Vehicle.fromColor(var color) {
-    this.color = color;
+  Vehicle.fromColor(var this.color) {
     print('Call Vehicle.fromColor: $color Constructor');
   }
 
@@ -19,8 +18,7 @@ class Vehicle {
 class Car extends Vehicle {
   String carName;
 
-  Car(String carName, String color) : super.fromColor(color) {
-    this.carName = carName;
+  Car(this.carName, String color) : super.fromColor(color) {
     print('Call of Car. Name: $carName, Color: $color');
   }
 
