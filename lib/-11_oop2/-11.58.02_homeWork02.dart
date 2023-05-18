@@ -5,7 +5,7 @@ int surfaceAreaResult = cuboid.surfaceArea;
 int volumeResult = cuboid.volume;
 
 Cube cube = Cube(2);
-int cubeSurfaceAreaResult = cube.cubeSurfaceArea;
+int cubeSurfaceAreaResult = cube.surfaceArea;
 int cubeVolumeResult = cube.cubeVolume;
 
 print('Result surfaceArea: $surfaceAreaResult');
@@ -37,8 +37,8 @@ class Cube extends Cuboid {
   Cube(this.length): super(length, length, length);
 
   @override
-  int get cubeSurfaceArea {
-    return 6 * (length * length);
+  int get surfaceArea {
+    return 6 * length * length;
   }
 
   int get cubeVolume {
