@@ -1,6 +1,7 @@
 import 'dart:html';
 import 'dart:async';
 
+
 void vehicleClass() {
 // Future (Future API & async / await)
 
@@ -19,10 +20,20 @@ printFileContent();
 print('The main program: Ends');
 }
 
-printFileContent() {
-  Future <String> fileContent = downloadFile();
-  fileContent.then((resultString) =>   print('The content of the file is --> $resultString')
-  ).catchError((error) => print('The file not found'));
+printFileContent() async {
+  try {
+    String time = await HttpRequest.getString("http://worldtimeapi.org/api/timezone/Europe/Stockholm");
+    print(time);
+
+    String fileContent = await downloadFile();
+    print('The content of the file is --> $fileContent');
+
+    String time1 = await HttpRequest.getString("http://worldtimeapi.org/api/timezone/Europe/Stockholm");
+    print(time1);
+
+  } catch (error) {
+    print('Catching error: $error');
+  }
 }
 
 Future <String> downloadFile() {
