@@ -1,29 +1,30 @@
+late int global;
+
 void vehicleClass() {
-print(someValue(25));
-print(someValue(null));
+  // var pizza = Pizza(1, 'Spring', 10);
+  late var pizza = Pizza().printPizza();
+  // print(pizza.printPizza());
+  print(pizza);
 
-int? age;
-age ??= 20;
-print(age);
+  global = 1;
+  print(global);
 
-print(absoluteValue(-25));
-print(absoluteValue(null));
-
-num value = 10;
-num otherValue = value as int;
-print(otherValue);
 }
 
+class Pizza {
+  late int id;
+  late String name;
+  late double price;
 
-int? absoluteValue(int? value) {
-  return value?.abs() ?? 0;
+  // Pizza(this.id, this.name, this.price);
+  Pizza() {
+  id = 1;
+  name = 'Spring';
+  price = 10;
 }
 
-
-int someValue(int? value) {
-  //return value == null ? 0 : value;
-  //or
-  return value ?? 0;
-
-
+  String printPizza() {
+    print('Cooking pizza ...');
+    return 'Pizza ($id): $name, price: $price';
+  }
 }
