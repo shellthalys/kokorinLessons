@@ -4,8 +4,8 @@ void weatherApp(List<String> arguments) {
     return;
   }
 
-  final sityName = arguments.first;
-  print(sityName);
+  final cityName = arguments.first;
+  print(cityName);
 
 
 
