@@ -24,4 +24,44 @@ class Weather {
         conditions: conditionData['text'],
     );
   }
+
+  @override
+  String toString() => '''
+  Last updated: $lastUpdated
+  Temperature: $tempC C
+  Feels like: $tempLikeC C
+  Weather conditions: $conditions
+  ''';
 }
+
+class Forecast {
+  final String date;
+  final double minTempC;
+  final double maxTempC;
+  final String condition;
+
+  Forecast({
+    required this.date,
+    required this.minTempC,
+    required this.maxTempC,
+    required this.condition
+  });
+
+  factory Forecast.fromJson(Map<String, dynamic> json) {
+    final conditionData json['day']['condition'];
+    return Forecast(
+      date: json['date'],
+      cityName: json ['location']['nane'],
+      minTempC: json['day']['mintemp_c'].toDouble(),
+      maxTempC: json['day']['maxtemp_c'].toDouble(),
+      condition: conditionData['text'],
+    );}
+
+  @override
+  String toString() => '''
+  Last updated: $date
+  Temperature: $minTempC C - $maxTempC C
+  Weather conditions: $conditions
+  ''';
+
+  }
