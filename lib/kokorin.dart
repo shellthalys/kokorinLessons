@@ -1,12 +1,13 @@
 // TODO Implement this library.
-// import 'package:kokorin/-08_functions/-08.39.02_homeWork.dart' as lib;
-//
-// void main() {
-//   lib.sumPositive();
-//   }
+import 'package:kokorin/-14_weatherConsolApp/-14.71_weatherConsolApp.dart' as lib;
 
-import 'package:kokorin/-10_oop1/-10.45_namedConstructorClasses.dart' as lib;
 
 void main() {
-  lib.carClass();
-}
+  lib.weatherApp(arguments);
+  }
+
+// import 'package:kokorin/-11_oop2/-11.58.02_homeWork02.dart' as lib;
+//
+// void main() {
+//   lib.carClass();
+// }
